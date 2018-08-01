@@ -12,7 +12,7 @@ pipeline {
             }
         }
 }
-}
+
 
         stage('Test') {
             agent {
@@ -29,6 +29,7 @@ pipeline {
                 }
             }
         }
+}
 /**
 #        stage('Deliver') {
 #            agent {
